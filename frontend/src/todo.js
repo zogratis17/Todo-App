@@ -151,7 +151,7 @@ export default function Todo() {
             <h1> Task Helper </h1>
         </div>
 
-        <div className="row">
+        <div className="row mt-3">
             <h3> Add Task Below</h3>
             {msg && <p className="text-sucess"> {msg} </p>}
           
@@ -165,8 +165,8 @@ export default function Todo() {
             {error && <p className="text-danger"> {error} </p>}
         </div>
         <div className="row mt-3">
-            <h3> Tasks </h3>
-            <div className="col-md-6">
+            <h3 className="font-style-italic"> Task List </h3>
+            <div>
             <ul className="list-group">
                 {
                     todos.map((item) => 
@@ -194,9 +194,11 @@ export default function Todo() {
                             </div>
                             
                     
-                </li>
+                        </li>
+                        
 
                     )
+                    
                 }
                 
             
