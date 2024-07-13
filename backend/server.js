@@ -1,12 +1,18 @@
 const express = require('express'); //calling in express
 const mongoose = require('mongoose')
 const app = express(); //assigning express function as app
+const cors = require('cors');
 
 //middleware - for decoding json data
 
 app.use(express.json());
+app.use(cors()); //middleware for cors policy
 
-const port = 3000; //port number for running the application
+
+
+
+
+const port = 8000; //port number for running the application
 
 // app.get('/', (req, res) => { // '/' represents the url , the localhost one
 //     res.send('Hello World!'); // this is what gets printed when we open the url
