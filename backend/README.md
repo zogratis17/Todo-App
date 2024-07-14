@@ -52,8 +52,8 @@ To run the server, execute:
 
 ```bash
 npm start
-
-## API Endpoints
+```
+### API Endpoints
 
 ### Create a new todo item
 
