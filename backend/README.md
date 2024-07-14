@@ -52,3 +52,98 @@ To run the server, execute:
 
 ```bash
 npm start
+
+## API Endpoints
+
+### Create a new todo item
+
+- **URL:** `/todos`
+- **Method:** `POST`
+- **Description:** Creates a new todo item.
+- **Request Body:**
+
+    ```json
+    {
+        "title": "string",
+        "description": "string"
+    }
+    ```
+
+- **Response:**
+
+    ```json
+    {
+        "_id": "string",
+        "title": "string",
+        "description": "string",
+        "__v": 0
+    }
+    ```
+
+### Get all todo items
+
+- **URL:** `/todos`
+- **Method:** `GET`
+- **Description:** Retrieves all todo items.
+- **Response:**
+
+    ```json
+    [
+        {
+            "_id": "string",
+            "title": "string",
+            "description": "string",
+            "__v": 0
+        },
+        ...
+    ]
+    ```
+
+### Update a todo item
+
+- **URL:** `/todos/:id`
+- **Method:** `PUT`
+- **Description:** Updates an existing todo item.
+- **Request Body:**
+
+    ```json
+    {
+        "title": "string",
+        "description": "string"
+    }
+    ```
+
+- **Response:**
+
+    ```json
+    {
+        "_id": "string",
+        "title": "string",
+        "description": "string",
+        "__v": 0
+    }
+    ```
+
+### Delete a todo item
+
+- **URL:** `/todos/:id`
+- **Method:** `DELETE`
+- **Description:** Deletes a todo item.
+- **Response:** `204 No Content`
+
+## Contributing
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or support, please contact [hariprasathnt@yahoo.com].
+
