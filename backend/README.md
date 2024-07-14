@@ -22,8 +22,8 @@ This is the backend of the Todo App, built with Node.js, Express, and MongoDB.
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/zogratis17/hitshoppers-task-1
+    cd backend
     ```
 
 2. Install dependencies:
