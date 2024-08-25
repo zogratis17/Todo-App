@@ -1,7 +1,7 @@
 # Todo App Documentation
 
  
-Working Video : (https://github.com/zogratis17/hitshoppers-task-1/blob/main/Screenshots/2024-07-14%2013-37-13.mkv)
+Working Video : (https://github.com/zogratis17/Todo-App/blob/main/Screenshots/2024-07-14%2013-37-13.mkv)
 
 
 ## Table of Contents
