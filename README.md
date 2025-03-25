@@ -31,7 +31,7 @@ This Todo App is a full-stack application built with React.js for the frontend a
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/zogratis17/hitshoppers-task-1
+    git clone https://github.com/zogratis17/Todo-App
     cd backend
     ```
 
